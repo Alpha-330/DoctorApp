@@ -1,0 +1,5 @@
+# Build output
+/build
+
+# Package lock file (if using npm)
+package-lock.json

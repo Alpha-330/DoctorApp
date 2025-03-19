@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Book Appointment Container */
+.book-appointment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.book-appointment-container h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Doctor Details Section */
+.doctor-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.doctor-info {
+  text-align: left;
+}
+
+.doctor-info h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.doctor-info p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+
+/* Appointment Form */
+.appointment-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.date-picker label {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-right: 10px;
+}
+
+.date-picker input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.time-slots {
+  margin-bottom: 20px;
+}
+
+.time-slots h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.time-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.time-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #3498db;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.time-button.selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.time-button:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.confirm-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #2980b9;
+}
+
+/* Confirmation Modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #3498db;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.modal-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
